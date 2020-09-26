@@ -8,3 +8,7 @@ RUN apt-get update && \
 RUN apt-get update && \
     apt-get install --no-install-recommends -y inkscape && \
     rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update && \
+    apt-get install --no-install-recommends -y imagemagick && \
+    rm -rf /var/lib/apt/lists/*
