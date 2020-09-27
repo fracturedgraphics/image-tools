@@ -1,0 +1,62 @@
+<type>: <subject>
+# |<----  Using a Maximum Of 50 Characters  ---->|
+
+# Explain what and why this change is being made.
+# |<----   Try To Limit Each Line to a Maximum Of 72 Characters   ---->|
+Explain here
+
+# BREAKING CHANGE: <description>
+# This is required if breaking change is being made. 
+# If there is a breaking change add ! after type.
+
+
+# Provide links or keys to any relevant tickets, articles or other resources.
+# Use issues and merge requests' short/relative references instead of URLs.
+
+
+# --- COMMIT END ---
+# Type can be one of the following:
+#    build
+#        Changes that affect the build system or external dependencies.
+#    ci
+#        Changes to our CI configuration files and scripts.
+#    docs
+#        Documentation only changes.
+#    feat
+#        A new feature.
+#    fix
+#        A bug fix.
+#    perf
+#        A code change that improves performance.
+#    refactor
+#        A code change that neither fixes a bug nor adds a feature.
+#    style
+#        Changes that do not affect the meaning of the code (white-space, 
+#        formatting, missing semi-colons, etc).
+#    test
+#        Adding missing tests or correcting existing tests.
+#    revert
+#        For reverting a previous commit. The body should say: 
+#        `This reverts commit <hash>.`, where the hash is the SHA of 
+#        the commit being reverted.
+#    chore
+#        Other changes that don't modify src or test files.
+# --------------------
+# Remember to do the following:
+#    - Do not capitalize the subject line unless it is a word/text that 
+#      should be capitalized.
+#    - Subject must contain at least 3 words.
+#    - Use the imperative, present tense: "change" not "changed" nor "changes", 
+#      in the subject line and body.
+#    - Do not end the subject line with a period.
+#    - Separate each section with a blank line.
+#    - Use the body to explain what and why vs. how.
+#    - Do not use Emojis.
+#    - Use "-" instead of "*" for bulleted items.
+# --------------------
+# This template based on the following:
+#    - https://www.conventionalcommits.org/en/v1.0.0/
+#    - https://github.com/angular/angular/blob/master/CONTRIBUTING.md
+# --------------------
+# For updates, visit:
+# https://github.com/fracturedgraphics/git-template
