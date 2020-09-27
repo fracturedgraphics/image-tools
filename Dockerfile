@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-ARG INKSCAPE_VERSION=1.0+r73+1~ubuntu20.04.1
+ARG INKSCAPE_VERSION=1.0.1+r73~ubuntu20.04.1
 ARG IMAGEMAGICK_VERSION=8:6.9.10.23+dfsg-2.1ubuntu11
 
 RUN apt-get update && \
